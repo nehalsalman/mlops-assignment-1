@@ -1,16 +1,15 @@
 # MLOps Assignment 1 – MLflow Tracking & Model Registry
 
 ##  Problem Statement
-The goal of this assignment is to train multiple ML models on a dataset, compare their performance, track experiments using **MLflow**, and register the best-performing model in the **MLflow Model Registry**.  
-This helps in building reproducible workflows for ML development and deployment.
-
+The goal of this assignment is to train multiple ML models on a dataset, compare their performance, track experiments using MLflow, and register the best-performing model in the MLflow Model Registry.
+This ensures reproducible machine learning workflows and introduces best practices in MLOps.
 ---
 
 ## Dataset
 - **Dataset Used:** Iris Dataset (from scikit-learn)  
 - **Features:** Sepal length, Sepal width, Petal length, Petal width  
 - **Target:** Flower species (Setosa, Versicolor, Virginica)  
-
+Reason for selection: The Iris dataset is simple, well-structured, and widely used for ML experiments, making it ideal for demonstrating MLflow experiment tracking.
 ---
 
 ##  Models Trained & Compared
@@ -42,7 +41,7 @@ We used **MLflow** to:
 
 ---
 
-## 🏷Model Registration
+## Model Registration
 After selecting the **SVM model** as the best performer, we registered it in the **MLflow Model Registry**.
 
 - **Model Name:** `IrisClassifier`  
@@ -60,6 +59,15 @@ After selecting the **SVM model** as the best performer, we registered it in the
 ![Model Registry](results/registered_model.png)
 
 ---
+ ## Project Structure
+mlops-assignment-1/
+├── data/                  # (optional, dataset storage if needed)  
+├── notebooks/             # Jupyter notebooks for experimentation  
+├── src/                   # Training scripts (train.py)  
+├── models/                # Saved models (.pkl)  
+├── results/               # Confusion matrices, evaluation CSVs, screenshots  
+├── requirements.txt       # Dependencies  
+└── README.md              # Documentation  
 
 ##  How to Run the Project
 1. Clone this repository:  
