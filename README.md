@@ -57,6 +57,7 @@ After selecting the **SVM model** as the best performer, we registered it in the
 
  **Screenshot of Model Registry:**  
 ![Model Registry](results/registered_model.png)
+![img_5.png](img_5.png)
 
 ---
  ## Project Structure
@@ -68,7 +69,10 @@ mlops-assignment-1/
 ├── results/               # Confusion matrices, evaluation CSVs, screenshots  
 ├── requirements.txt       # Dependencies  
 └── README.md              # Documentation  
-
+## Visualization
+![img_1.png](img_1.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
 ##  How to Run the Project
 1. Clone this repository:  
    ```bash
